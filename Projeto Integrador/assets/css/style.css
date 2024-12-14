@@ -1,0 +1,142 @@
+/* Reset básico */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header e Navegação */
+header {
+    background: #ff5722;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #e64a19;
+    border-radius: 5px;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffe0b2;
+}
+
+.intro h1 {
+    font-size: 3em;
+    color: #d84315;
+}
+
+.intro p {
+    font-size: 1.5em;
+}
+
+/* Seções de Produtos */
+.products {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #ff6f42;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+/* Cards dos Produtos */
+.product {
+    background: #f6e4c6;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
+    border-radius: 10px;
+}
+
+
+.product h3 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+
+.price {
+    font-weight: bold;
+    color: #d32f2f;
+    font-size: 1.5em;
+}
+
+/* Hover no Card */
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Section Sobre */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffeb3d;
+    margin-top: 50px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background: #212121;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #ffeb3d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

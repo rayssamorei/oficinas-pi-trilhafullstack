@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria do Canadá</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo -->
+    <div class="galeria-container">
+        <h1 id="titulo-galeria">Galeria de Locais do Canadá</h1>
+        <p id="descricao-galeria">Explore os lugares mais incríveis que o Canadá tem a oferecer!</p>
+
+        <div class="galeria">
+            <img src="imagens/canada1.webp" alt="Vancouver" class="imagem" onmouseover="mostrarLocal(event, 'Vancouver')" onmouseout="esconderLocal()">
+            <img src="imagens/canada2.webp" alt="Toronto" class="imagem" onmouseover="mostrarLocal(event, 'Toronto')" onmouseout="esconderLocal()">
+            <img src="imagens/canada3.webp" alt="Montreal" class="imagem" onmouseover="mostrarLocal(event, 'Montreal')" onmouseout="esconderLocal()">
+            <img src="imagens/canada4.webp" alt="Quebec" class="imagem" onmouseover="mostrarLocal(event, 'Quebec')" onmouseout="esconderLocal()">
+            <img src="imagens/canada5.webp" alt="Banff" class="imagem" onmouseover="mostrarLocal(event, 'Banff')" onmouseout="esconderLocal()">
+            <img src="imagens/canada6.webp" alt="Calgary" class="imagem" onmouseover="mostrarLocal(event, 'Calgary')" onmouseout="esconderLocal()">
+            <img src="imagens/canada7.webp" alt="Niagara Falls" class="imagem" onmouseover="mostrarLocal(event, 'Niagara Falls')" onmouseout="esconderLocal()">
+            <img src="imagens/canada8.webp" alt="Victoria" class="imagem" onmouseover="mostrarLocal(event, 'Victoria')" onmouseout="esconderLocal()">
+            <img src="imagens/canada9.webp" alt="Ottawa" class="imagem" onmouseover="mostrarLocal(event, 'Ottawa')" onmouseout="esconderLocal()">
+            <img src="imagens/canada10.webp" alt="Whistler" class="imagem" onmouseover="mostrarLocal(event, 'Whistler')" onmouseout="esconderLocal()">
+        </div>
+
+        <p id="nome-local"></p>
+    </div>
+
+</body>
+</html>

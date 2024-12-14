@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+
+.galeria-container {
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.imagem {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.imagem:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+#nome-local {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Efeito na seção Sobre */
+.sobre-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #0073e6;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #e7f3fe;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background: #d1f0ff;
+}
+
+/* Texto extra ao passar o mouse */
+.info-hover-text {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #0073e6;
+    margin-top: 15px;
+    transition: 0.4s;
+    text-shadow: 1px 1px 5px #ccc;
+}
+/* Estilo das Seções Principais */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #0073e6;
+}
+
+.principal {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+/* Cards das Atrações */
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Seção de Curiosidades */
+.curiosidades {
+    padding: 20px;
+}
+
+
+
+li:hover {
+    background: #d1f0ff;
+}
+header {
+    background-color: #0073e6; /* Fundo azul */
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Mantém a mesma cor do texto */
+    font-weight: normal;
+    background: none; /* Garante que não haja fundo ao clicar */
+    outline: none; /* Remove contorno ao clicar */
+    transition: none; /* Remove todos os efeitos de transição */
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+    color: inherit; /* Mantém a cor original */
+    background: none;
+    text-decoration: none;
+}
+
+/* Remove os pontos das listas não ordenadas na seção Cultura e Estilo de Vida */
+.cultura-estilo-lifestyle ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Remove os números das listas ordenadas na seção Cultura e Estilo de Vida */
+.cultura-estilo-lifestyle ol {
+    list-style-type: none;
+    padding-left: 0;
+}
